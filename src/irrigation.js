@@ -16,7 +16,7 @@ export function moyenneHumidite(releves) {
   }
   // Somme de toutes les humidités (reduce, comme pour la surface totale).
   const somme = releves.reduce((total, releve) => total + releve.humidite, 0);
-  // Moyenne = somme divisée par le nombre de relevés ; Math.round arrondit.
+  // Moyenne = somme divisée par le nombre de relevés ; Math.round arrondit..
   return Math.round(somme / releves.length);
 }
 
