@@ -6,7 +6,7 @@
 // Exemple : 'P01 | Awa Diallo | Soubré | cacao | 3 ha'
 
 export function formaterParcelle(parcelle) {
-  return `${parcelle.id} | ${parcelle.producteur} | ${parcelle.localite} | ${parcelle.culture} | ${parcelle.surface}  ha`;
+  return `${parcelle.id} | ${parcelle.producteur} | ${parcelle.village} | ${parcelle.culture} | ${parcelle.surface}  ha`;
 }
 
 // Renvoie la parcelle dont l'id est demandé, ou undefined si elle n'existe pas.
