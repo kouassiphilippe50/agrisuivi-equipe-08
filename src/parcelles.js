@@ -6,7 +6,7 @@
 // Exemple : 'P01 | Awa Diallo | Soubré | cacao | 3 ha'
 
 export function formaterParcelle(parcelle) {
-  return `${parcelle.id} | ${parcelle.producteur} | ${parcelle.localite} | ${parcelle.culture} | ${parcelle.surface}  ha`;
+  return `${parcelle.id} | ${parcelle.producteur} | ${parcelle.localite} | ${parcelle.culture} | ${parcelle.surface}   ha`;
   
 }
 
