@@ -1,4 +1,4 @@
-// MEMBRE 1 — Parcelles : lister les parcelles, additionner leur surface,
+// MEMBRE 1 Mon travail consiste à lister les parcelles, additionner leur surface,
 // ne garder que celles d'une culture (ex. le cacao), faire une fiche complète d'une parcelle,humidité en pourcentage et température, interroger les capteurs.
 
 // Renvoie d'une ligne de texte qui décrit la parcelle.
