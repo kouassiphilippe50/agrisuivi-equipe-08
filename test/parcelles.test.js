@@ -9,8 +9,8 @@ const parcelles = [
 ];
 
 test('formaterParcelle écrit les informations sur une ligne', () => {
-  assert.equal(formaterParcelle(parcelles[0]), 'A1 | Ama | Man | cacao | 2 ha');
-  assert.equal(formaterParcelle(parcelles[1]), 'A2 | Moussa | Odienné | riz | 1.5 ha');
+  assert.equal(formaterParcelle(parcelles[0]), 'A1 | Ama | Man | cacao | 2  ha');
+  assert.equal(formaterParcelle(parcelles[1]), 'A2 | Moussa | Odienné | riz | 1.5  ha');
 });
 
 test('trouverParcelle renvoie la parcelle demandée', () => {
