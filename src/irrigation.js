@@ -35,7 +35,7 @@ export function etatIrrigation(humidite, culture) {
   if (humidite > culture.humiditeMax) {
     return 'DRAINER';
   }
-  // Si Sinon on est dans la zone idéale, bornes comprises.
+  // Sinon si on est dans la zone idéale, bornes comprises.
   return 'OK';
 }
 
