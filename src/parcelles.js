@@ -1,17 +1,23 @@
-// MEMBRE 1 — Parcelles : lister les parcelles, additionner leur surface,
+// MEMBRE 1 Mon travail consiste à lister les parcelles, additionner leur surface,
 // ne garder que celles d'une culture (ex. le cacao), faire une fiche complète d'une parcelle,humidité en pourcentage et température, interroger les capteurs.
 
 // Renvoie d'une ligne de texte qui décrit la parcelle.
 
 // Exemple : 'P01 | Awa Diallo | Soubré | cacao | 3 ha'
+
 export function formaterParcelle(parcelle) {
+<<<<<<< HEAD
   return `${parcelle.id} | ${parcelle.producteur} | ${parcelle.localite} | ${parcelle.culture} | ${parcelle.surface} ha`;
+=======
+  return `${parcelle.id} | ${parcelle.producteur} | ${parcelle.localite} | ${parcelle.culture} | ${parcelle.surface}   ha`;
+  
+>>>>>>> 144b4f6b6b15eb90c329ed16fbdb3ba28088afb9
 }
 
 // Renvoie la parcelle dont l'id est demandé, ou undefined si elle n'existe pas.
 export function trouverParcelle(parcelles, id) {
   return parcelles.find((parcelle) => parcelle.id === id);
-}
+} 
 
 // Renvoie un nouveau tableau avec seulement les parcelles de cette culture.
 export function parcellesParCulture(parcelles, culture) {
