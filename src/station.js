@@ -38,8 +38,11 @@ export async function releverUnParUn(capteurs) {
   return resultats;
 }
 
+
 // Interroge tous les capteurs EN MÊME TEMPS. Les résultats gardent l'ordre des capteurs.
 export async function releverEnParallele(capteurs) {
   // map lance toutes les demandes d'un coup ; Promise.all attend qu'elles soient toutes finies.
   return Promise.all(capteurs.map((capteur) => interrogerSansPlanter(capteur)));
 }
+
+
